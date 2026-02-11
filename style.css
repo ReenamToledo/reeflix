@@ -1,0 +1,31 @@
+* {
+    color: #FFFFFF;
+}
+
+body {
+    background-color: #000000;
+}
+
+header {
+    background: linear-gradient(rgb(0, 0, 0, 0.6)),
+    url('assets/background_movies.jpg');
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 29px 160px;
+}
+
+.nav-buttons button {
+    width: 70px; height: 32px;
+    background-color: #E50A14;
+    font-size: small;
+    border: none;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.nav-buttons button:hover {
+    background-color: #C1111A;
+}
