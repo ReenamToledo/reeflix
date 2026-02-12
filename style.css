@@ -4,28 +4,80 @@
 
 body {
     background-color: #000000;
+    background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
+    url('assets/background_movies.jpg');
 }
 
 header {
-    background: linear-gradient(rgb(0, 0, 0, 0.6)),
-    url('assets/background_movies.jpg');
+
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
-    margin: 29px 160px;
+    margin: 28px 158px;
 }
 
-.nav-buttons button {
+.logo {
+    margin: -12px 0 0 -20px;
+}
+
+.nav-button {
     width: 70px; height: 32px;
     background-color: #E50A14;
-    font-size: small;
+    font-size: 14px;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     transition: 1s;
 }
 
-.nav-buttons button:hover {
+.nav-button:hover {
+    background-color: #C1111A;
+}
+
+.destaque {
+    text-align: center;
+}
+
+.slogan {
+    font-family: sans-serif;
+    font-size: 56px;
+    line-height: 70px;
+    font-weight: bold;
+}
+
+.sign_in-buttons {
+    gap: 7px;
+}
+
+
+.email {
+    width: 250px; height: 50px;
+    background-color: #10100F;
+    border: solid #B9B8A2 0.8px;
+    color: #B8B8B8;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.sign_in-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign_in-button {
+    width: 157px; height: 50px;
+    background-color: #E50A14;
+    font-family: sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 500px;
+    border: none;
+    border-radius: 4px;
+    transition: 1s;
+}
+
+.sign_in-button:hover {
     background-color: #C1111A;
 }
