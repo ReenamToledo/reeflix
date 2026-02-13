@@ -3,19 +3,21 @@
 }
 
 body {
+    margin: 0;
     background-color: #000000;
-    background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
-    url('assets/background_movies.jpg');
+    background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url('assets/background_movies.jpg');
+    background-repeat: no-repeat;
 }
 
+/* header */
 header {
-
+    border-bottom: #C1111A solid;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
-    margin: 28px 158px;
+    margin: 28px 151px 28px 160px;
 }
 
 .logo {
@@ -36,7 +38,7 @@ header {
 }
 
 .slogan {
-    margin: 236px 0 0 -15px;
+    margin: 236px 0 0 0;
     text-align: center;
 }
 
@@ -64,6 +66,9 @@ header {
 
 .sign_in-buttons {
     gap: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .email {
@@ -73,12 +78,6 @@ header {
     color: #B8B8B8;
     border-radius: 4px;
     font-size: 16px;
-}
-
-.sign_in-buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .sign_in-button {
@@ -95,4 +94,67 @@ header {
 
 .sign_in-button:hover {
     background-color: #C1111A;
+}
+
+
+
+
+
+/* main */
+main {
+    background-color: #000000;
+}
+
+.sign_in-buttons_two {
+    gap: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email_two {
+    width: 600px; height: 50px;
+    background-color: #10100F;
+    border: solid #B9B8A2 0.8px;
+    color: #B8B8B8;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.sign_in-button_two {
+    width: 157px; height: 50px;
+    background-color: #E50A14;
+    font-family: sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 500px;
+    border: none;
+    border-radius: 4px;
+    transition: 1s;
+}
+
+.sign_in-button_two:hover {
+    background-color: #C1111A;
+}
+
+
+
+
+/* footer */
+footer {
+    background-color: #000000;
+    font-family: sans-serif;
+}
+
+.questions {
+    margin: 28px 151px 28px 148px;
+}
+
+.question_max {
+    margin: 28px 151px 28px 148px;
+    display: inline-block;    
+}
+
+footer a {
+    color: #B3B3B3;
 }
